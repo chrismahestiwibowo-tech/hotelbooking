@@ -5,6 +5,7 @@ import HotelListView from "./components/HotelListView";
 import RoomDetailsView from "./components/RoomDetailsView";
 import BookingView from "./components/BookingView";
 import ConfirmationView from "./components/ConfirmationView";
+import GuestRelationBot from "./components/GuestRelationBot";
 import { Hotel, Room, SearchParams, Booking } from "./types";
 
 export default function App() {
@@ -159,6 +160,9 @@ export default function App() {
       <main className="flex-grow w-full max-w-7xl mx-auto px-0 sm:px-4">
         {renderView()}
       </main>
+
+      {/* Guest Relation AI Bot */}
+      <GuestRelationBot activeBooking={activeBooking} searchParams={searchParams} />
 
       {/* Minimal Aesthetic Footer */}
       <footer className="bg-stone-900 text-stone-400 py-10 border-t border-stone-800 text-center text-xs">

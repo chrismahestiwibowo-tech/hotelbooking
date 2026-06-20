@@ -1,6 +1,6 @@
 {
   "name": "Hotel Booking Web App",
-  "description": "A clean and fully interactive web application to search hotels, view room details, book rooms, and see booking confirmations.",
+  "description": "A clean, fully interactive web application to search hotels, select rooms, book stays, and chat live with our online guest-relation AI digital concierge butler.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
